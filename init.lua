@@ -19,6 +19,8 @@ require('lualine').setup {
     theme = 'auto',  -- Set your theme here
     section_separators = { '', '' },
     component_separators = { '', '' },
+    icons_enabled = true,
+    disabled_filetypes = {},
   },
   sections = {
     lualine_a = { 'mode' },
@@ -30,3 +32,4 @@ require('lualine').setup {
   },
   extensions = { 'fzf', 'nvim-tree' },
 }
+
